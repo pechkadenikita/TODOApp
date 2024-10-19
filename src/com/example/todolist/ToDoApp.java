@@ -15,7 +15,7 @@ public class ToDoApp {
             displayMenu();
             System.out.print("Choose an option: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // Clear the newline
+            scanner.nextLine();
 
             switch (choice) {
                 case 1:
